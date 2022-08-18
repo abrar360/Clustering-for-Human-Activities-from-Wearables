@@ -16,8 +16,7 @@ For fine-tuning, the Adam optimizer with a learning rate of $1e-4$ and weight de
 Finally, the model is evaluated on the held out test set to obtain the reported results.
 
 ## Metrics
-We evaluate the accuracy of our trained clustering model on the test set using the following metrics: 1) unsupervised clustering accuracy (ACC), which computes the prediction accuracy assuming the best possible mapping from cluster indices to labels, given the predictions.; and, 2) Normalized Mutual Information (NMI) score, which measures the degree of similarity or agreement between two labeling schemes, which in our case are the ground-truth labels and cluster assignments. 
+We evaluate the accuracy of our trained clustering model on the test set using the following metrics: 1) unsupervised clustering accuracy (ACC), which computes the prediction accuracy assuming the best possible mapping from cluster indices to labels, given the predictions and, 2) Normalized Mutual Information (NMI) score, which measures the degree of similarity or agreement between two labeling schemes, which in our case are the ground-truth labels and cluster assignments. 
 These metrics are designed to be robust to permutations of cluster assignments, which is necessary because mappings from cluster indices to class labels can be arbitrary. Thus, we opt for these metrics for consistency to previous clustering baselines.
-}
 
 
