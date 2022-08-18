@@ -1,6 +1,7 @@
 # Clustering-for-Human-Activities-from-Wearables-by-Adopting-Nearest-Neighbors
 
 Below are additional implementation details for "Clustering for Human Activities from Wearables by Adopting Nearest Neighbors" paper:
+(code coming soon)
 
 ## Clustering and Fine-tuning the Cluster Assignments
 We train the pretext network for 100 epochs using the SGD optimizer with learning rate of $1e-3$, weight decay of $1e-4$, momentum of 0.9 and batch size of 256, and store the top-20 nearest neighbors of each window. 
@@ -19,4 +20,4 @@ We evaluate the accuracy of our trained clustering model on the test set using t
 These metrics are designed to be robust to permutations of cluster assignments, which is necessary because mappings from cluster indices to class labels can be arbitrary. Thus, we opt for these metrics for consistency to previous clustering baselines.
 }
 
-Code will be uploaded shortly after the release of the paper.
+
